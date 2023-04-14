@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="ElCSS.css">
+    <title>Document</title>
+</head>
+<body>
+    <header> <!--Etiqueta semántica-->
+        <h1>Tipos de formularios</h1>
+    </header>
+    <hr/>
+    <section> <!--Etiqueta semántica-->
+        <br/>
+        <form>
+            <fieldset>
+                <legend>Datos personales</legend>
+                <div>
+                    <label for="exp">Experiencia</label>
+                    <input value="2 meses" type="text" id="exp" name="Exper"></input>
+                </div>
+                <br>
+                <br>
+                <div>
+                    <label for="key">Contraseña</label>
+                    <input type="password" id="key" name="Contra" placeholder="1234"></input>
+                </div>
+                <br>
+                <br>
+                <div>
+                    <label for="date">Fecha de retiro</label>
+                    <input type="date" id="date" name="Fecha_R"></input>
+                </div>
+                <br>
+                <br>
+                <div>
+                    <br>
+                    <br>
+                    <label for="male"><strong>Hombre</strong></label>
+                    <input type="radio" id="male" name="gen"></input>
+                    <br>
+                    <label for="female">Mujer</label>
+                    <input type="radio" id="female" name="gen"></input>
+                    <br>
+                    <label for="hemale">Hombre trans</label>
+                    <input type="radio" id="hemale" name="gen"></input>
+                    <br>
+                    <label for="shefemale">Mujer trans</label>
+                    <input type="radio" id="shefemale" name="gen"></input>
+                </div> <br>
+                <div>
+                    <label for="ciudad">Localidad de residencia:</label>
+                    <select name="local" id="ciudad">
+                        <option>Medellín</option>
+                        <option>Copacabana</option>
+                        <option>Sabaneta</option>
+                        <option>Marinilla</option>
+                    </select>
+                </div>
+                <br>
+                <br>
+                <div>
+                    <button type="submit">Enviar</button>
+                    <input type="reset" value="Limpiar"></input>
+                </div>
+            </fieldset>
+        </form>
+    </section>
+    <footer> <!--Etiqueta semántica-->
+        Copyright 2023
+    </footer>
+</body>
+</html>
